@@ -1,11 +1,9 @@
-import { Directive } from '@angular/core';
+import { Directive } from '@angular/core'
 
 @Directive({
   selector: '[appHover]',
-  standalone: true
+  standalone: true,
 })
 export class HoverDirective {
-
-  constructor() { }
-
+  constructor() {}
 }

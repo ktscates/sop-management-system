@@ -1,23 +1,22 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing'
 
-import { SopCardComponent } from './sop-card.component';
+import { SopCardComponent } from './sop-card.component'
 
 describe('SopCardComponent', () => {
-  let component: SopCardComponent;
-  let fixture: ComponentFixture<SopCardComponent>;
+  let component: SopCardComponent
+  let fixture: ComponentFixture<SopCardComponent>
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SopCardComponent]
-    })
-    .compileComponents();
+      imports: [SopCardComponent],
+    }).compileComponents()
 
-    fixture = TestBed.createComponent(SopCardComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+    fixture = TestBed.createComponent(SopCardComponent)
+    component = fixture.componentInstance
+    fixture.detectChanges()
+  })
 
   it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+    expect(component).toBeTruthy()
+  })
+})

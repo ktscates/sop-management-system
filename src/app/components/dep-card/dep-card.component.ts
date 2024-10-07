@@ -1,12 +1,10 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-dep-card',
   standalone: true,
   imports: [],
   templateUrl: './dep-card.component.html',
-  styleUrl: './dep-card.component.css'
+  styleUrl: './dep-card.component.css',
 })
-export class DepCardComponent {
-
-}
+export class DepCardComponent {}
